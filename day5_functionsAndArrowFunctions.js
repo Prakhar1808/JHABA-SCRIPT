@@ -33,4 +33,4 @@ const greetings = name => console.log("Hello, " + name + "!");
 // This will produce syntax errors (the one below):
 //function greetings name console.log("Hello, " + name + "!");
 
-//ab sojao
+const calculateArea = (width, height) => width * height; //don't use return it'll throw an error, the function will implicitly return the calculation
