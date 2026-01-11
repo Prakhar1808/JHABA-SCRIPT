@@ -8,10 +8,10 @@ function cardCounter(card){
   }
   let message = "";
   if(count>0){
-    message+=count+" "+"Bet";
+    message=count+" "+"Bet";
   }
-  if(count<=0){
-    message+=count+" "+"Hold";
+  else{
+    message=count+" "+"Hold";
   }
   return message;
 }
